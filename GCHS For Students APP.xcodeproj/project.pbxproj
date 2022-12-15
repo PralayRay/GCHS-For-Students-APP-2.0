@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4383EBE8294B726100DAA332 /* picturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383EBE7294B726100DAA332 /* picturesViewController.swift */; };
+		4383EBEA294B738F00DAA332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383EBE9294B738F00DAA332 /* ViewController.swift */; };
 		43F2DFAA28FDA08900763A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F2DFA928FDA08900763A02 /* AppDelegate.swift */; };
 		43F2DFAC28FDA08900763A02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F2DFAB28FDA08900763A02 /* SceneDelegate.swift */; };
-		43F2DFAE28FDA08900763A02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F2DFAD28FDA08900763A02 /* ViewController.swift */; };
 		43F2DFB128FDA08900763A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F2DFAF28FDA08900763A02 /* Main.storyboard */; };
 		43F2DFB328FDA08900763A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F2DFB228FDA08900763A02 /* Assets.xcassets */; };
 		43F2DFB628FDA08900763A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F2DFB428FDA08900763A02 /* LaunchScreen.storyboard */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4383EBE7294B726100DAA332 /* picturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picturesViewController.swift; sourceTree = "<group>"; };
+		4383EBE9294B738F00DAA332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43F2DFA628FDA08900763A02 /* GCHS For Students APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCHS For Students APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F2DFA928FDA08900763A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43F2DFAB28FDA08900763A02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		43F2DFAD28FDA08900763A02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43F2DFB028FDA08900763A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43F2DFB228FDA08900763A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F2DFB528FDA08900763A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +103,8 @@
 			children = (
 				43F2DFA928FDA08900763A02 /* AppDelegate.swift */,
 				43F2DFAB28FDA08900763A02 /* SceneDelegate.swift */,
-				43F2DFAD28FDA08900763A02 /* ViewController.swift */,
+				4383EBE7294B726100DAA332 /* picturesViewController.swift */,
+				4383EBE9294B738F00DAA332 /* ViewController.swift */,
 				43F2DFAF28FDA08900763A02 /* Main.storyboard */,
 				43F2DFB228FDA08900763A02 /* Assets.xcassets */,
 				43F2DFB428FDA08900763A02 /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F2DFAE28FDA08900763A02 /* ViewController.swift in Sources */,
+				4383EBE8294B726100DAA332 /* picturesViewController.swift in Sources */,
 				43F2DFAA28FDA08900763A02 /* AppDelegate.swift in Sources */,
+				4383EBEA294B738F00DAA332 /* ViewController.swift in Sources */,
 				43F2DFAC28FDA08900763A02 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7YD6DJ684M;
+				DEVELOPMENT_TEAM = 8R46N244M5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GCHS For Students APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.d127.230354.GCHS-For-Students-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.d127.230354.GCHS-For-Students-AP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7YD6DJ684M;
+				DEVELOPMENT_TEAM = 8R46N244M5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GCHS For Students APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.d127.230354.GCHS-For-Students-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.d127.230354.GCHS-For-Students-AP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
